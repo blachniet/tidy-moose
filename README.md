@@ -1,6 +1,6 @@
 # Tidy Moose
 
-This project provides various utilites related to investing.
+This project provides various utilities related to investing.
 
 ## Redirect Investing Symbol
 
