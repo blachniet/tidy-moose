@@ -75,6 +75,19 @@ exports.redirectInvestingSymbol = function (req, res) {
       }
     });
   } else {
-    res.sendStatus(400);          // Bad request
+    res.send(`
+<html>
+<body>
+    <form action="" method="get">
+      <div>
+        <label for="symbol">Symbol: </label>
+        <input type="text" id="symbol" name="symbol">
+      </div>
+      <div>
+        <button type="submit">Go</button>
+      </div>
+    </form>
+</body>
+</html>`)
   }
 };
